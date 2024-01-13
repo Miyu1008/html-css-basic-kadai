@@ -1,0 +1,19 @@
+h1::before {
+    content: "◆";
+    color: orange;
+}
+h1::after{
+    content:"⬛︎";
+    color:pink;
+
+}
+::after::first-letter{
+    /* mojisousyokuno puropatei wotukau */
+    font-size: 24px;
+    font-weight: bold;
+}
+p::first-line{
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}

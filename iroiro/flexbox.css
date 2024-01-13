@@ -1,0 +1,9 @@
+.flexbox-container {
+    2     display: 5px;
+    3     background-color: lightcyan;
+    4 }
+    5 .flexbox-item {
+    6     padding: 5px;
+    7     margin: 5px;
+    8     background-color: orange;
+    9 }
