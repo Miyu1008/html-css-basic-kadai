@@ -2,13 +2,12 @@ html {
    font-size: 20px;
 }
 body {
-    /* 文字の大きさ */
-    
     text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
  }
  h1 {
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 2em;
+   font-size: 2rem;
    letter-spacing: 1.2em;
    border-bottom: solid 3px rgb(115, 115, 114);
    text-shadow: 1px 1px 2px gray;
@@ -22,9 +21,6 @@ body {
 .google-fonts2{  
    color:rgb(255, 192, 203);
 }
- body {
-    font-family: "Arial", "Meiryo", sans-serif;
-  }
 .pink {
    color:rgb(255, 192, 203);
 }
