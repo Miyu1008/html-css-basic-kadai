@@ -10,9 +10,10 @@
  }
  
  // メソッドを定義する
-  describe(){
+  describe() {
     console.log('この商品名は'　+ this.name + 'です。');
   }
+  
  // インスタンス化する
  const shampoo = new Product('シャンプー', 500, '生活雑貨');
  const coffe = new Product('コーヒー', 1500,'飲料');
@@ -24,3 +25,16 @@
 
  // メソッドを呼び出す（実行する）
  shampoo.describe();
+
+  // 通常のオブジェクトにメソッドを定義する
+ const user = {
+   name: '侍太郎',
+   age: 36,
+   gender: '男性',
+   greet: () => {
+     console.log('よろしくお願いします！');
+   }
+ }
+ 
+ // メソッドを呼び出す（実行する）
+ user.greet();
